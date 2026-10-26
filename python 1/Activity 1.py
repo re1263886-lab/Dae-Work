@@ -1,0 +1,25 @@
+comumnity = [Jordon, Maya, Andrew, Bumbo]
+
+for person in comunity:
+    print("Shout out to " + person + " for showing up for our comiunity today!")
+
+
+# The computer counts shout-out numbers 1 to 5. 
+for number in range (1,6):
+    print("Shout-out #"+ str+(number))
+
+
+    for number in range(5, 0, -1):
+    print(number)
+print("community Day, here we come!")
+
+wall = []
+
+name=input("who gets a shout out? (Type 'done' when the wall is full)")
+
+while name != "done":
+    wall.append(name)
+    name = input("Who else? (Type 'done' when the wall is full)")
+
+    print()
+    print("the wall so far:")
